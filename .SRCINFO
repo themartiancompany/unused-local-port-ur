@@ -1,0 +1,16 @@
+pkgbase = unused-local-port
+	pkgdesc = Returns an unused local port.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/unused-local-port
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcrash-bash
+	depends = net-tools
+	source = unused-local-port-f190fd0a5f29c2e31f0783ca97a4e6a55b4872f8.zip::https://github.com/themartiancompany/unused-local-port/archive/f190fd0a5f29c2e31f0783ca97a4e6a55b4872f8.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 909d27477b6fac06835dee352709685c1a1bc70bc88cb5773518aff62c0813ad
+
+pkgname = unused-local-port
